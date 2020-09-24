@@ -1,0 +1,42 @@
+Arguments: 
+  F:\nodejs\node.exe F:\nodejs\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\MongoDB\bin;F:\Git\bin;C:\Program Files\Java\jdk1.8.0_91\bin;F:\Python2.7;F:\AndroidStudioSDK\platform-tools;F:\Atom;F:\NVM;F:\nodejs;C:\Program Files\Pandoc\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;F:\VScode\Microsoft VS Code\bin;F:\WebStorm 2019.1.2\bin;C:\Users\dell\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\dell\AppData\Local\GitHubDesktop\bin;F:\Bandzip\;C:\Users\dell\AppData\Roaming\npm;C:\Users\dell\AppData\Local\BypassRuntm;F:\Atom\bin;F:\NVM;F:\nodejs;C:\Users\dell\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: write EPROTO 19000:error:14094410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1536:SSL alert number 40
+  
+      at WriteWrap.afterWrite [as oncomplete] (net.js:788:14)
+
+npm manifest: 
+  {
+    "name": "demo01",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build"
+    },
+    "dependencies": {
+      "vue": "^3.0.0-rc.1"
+    },
+    "devDependencies": {
+      "vite": "^1.0.0-rc.1",
+      "@vue/compiler-sfc": "^3.0.0-rc.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
