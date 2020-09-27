@@ -39,7 +39,7 @@ _`webpack`启动项目可能要几十秒甚至超过一分钟_
 
 ##### 初始化`vite`项目
 
-1. 执行`yarn create vite-app demo01`
+1. 执行`yarn create vite-app demo01`或者`npm init vite-app demo01`
 
 2. cd到项目目录执行`yarn`安装依赖
 
